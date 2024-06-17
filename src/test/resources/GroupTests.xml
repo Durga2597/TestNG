@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="windows.functional" />
+			<include name="windows.smoke" />
+			<include name="windows.sanity" />
+		</run>
+	</groups>
+	<test name="test1">
+		<classes>
+			<class name="com.hyr.groupTests.NewTest" />
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<class name="com.hyr.groupTests.NewTest2" />
+		</classes>
+	</test>
+</suite>
